@@ -13,6 +13,7 @@
 		FCFF0211266DAC17001B5E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFF0210266DAC17001B5E65 /* Preview Assets.xcassets */; };
 		FCFF0219266F2813001B5E65 /* Lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF0218266F2813001B5E65 /* Lesson3.swift */; };
 		FCFF021B266F2905001B5E65 /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF021A266F2905001B5E65 /* Lesson4.swift */; };
+		FCFF021D266F8432001B5E65 /* Lesson5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF021C266F8432001B5E65 /* Lesson5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCFF0212266DAC17001B5E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCFF0218266F2813001B5E65 /* Lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3.swift; sourceTree = "<group>"; };
 		FCFF021A266F2905001B5E65 /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
+		FCFF021C266F8432001B5E65 /* Lesson5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FCFF020F266DAC17001B5E65 /* Preview Content */,
 				FCFF0218266F2813001B5E65 /* Lesson3.swift */,
 				FCFF021A266F2905001B5E65 /* Lesson4.swift */,
+				FCFF021C266F8432001B5E65 /* Lesson5.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFF021B266F2905001B5E65 /* Lesson4.swift in Sources */,
+				FCFF021D266F8432001B5E65 /* Lesson5.swift in Sources */,
 				FCFF0219266F2813001B5E65 /* Lesson3.swift in Sources */,
 				FCFF020C266DAC17001B5E65 /* ContentView.swift in Sources */,
 				FCFF020A266DAC17001B5E65 /* SwiftUITestApp.swift in Sources */,
