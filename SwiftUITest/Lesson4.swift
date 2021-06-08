@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Lesson4Preview : PreviewProvider {
     static var previews: some View{
-        Lesson4Challenge()
+        Lesson4ChallengeCommonFun()
     }
 }
 
@@ -102,15 +102,16 @@ struct Lesson4CommonFun: View {
             Image(assetName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-            VStack{
+            VStack(alignment: .center) {
                 Text(imageName)
                     .foregroundColor(Color.white)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.largeTitle)
                 Text(imagePlace)
                     .colorInvert()
             }
             .padding()
             .background(Color.black)
+            .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
             .cornerRadius(10)
         }.cornerRadius(10)
     }
