@@ -17,6 +17,7 @@
 		FCFF021F266FC739001B5E65 /* Lesson10.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF021E266FC739001B5E65 /* Lesson10.swift */; };
 		FCFF02212670DB52001B5E65 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02202670DB52001B5E65 /* Lesson11.swift */; };
 		FCFF02232670DE90001B5E65 /* Lesson11Challeng.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */; };
+		FCFF02252670FFF9001B5E65 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02242670FFF9001B5E65 /* Lesson12.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FCFF021E266FC739001B5E65 /* Lesson10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10.swift; sourceTree = "<group>"; };
 		FCFF02202670DB52001B5E65 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11Challeng.swift; sourceTree = "<group>"; };
+		FCFF02242670FFF9001B5E65 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				FCFF021E266FC739001B5E65 /* Lesson10.swift */,
 				FCFF02202670DB52001B5E65 /* Lesson11.swift */,
 				FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */,
+				FCFF02242670FFF9001B5E65 /* Lesson12.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFF02252670FFF9001B5E65 /* Lesson12.swift in Sources */,
 				FCFF021F266FC739001B5E65 /* Lesson10.swift in Sources */,
 				FCFF021B266F2905001B5E65 /* Lesson4.swift in Sources */,
 				FCFF021D266F8432001B5E65 /* Lesson5.swift in Sources */,
