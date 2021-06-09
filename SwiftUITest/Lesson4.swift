@@ -18,20 +18,20 @@ struct Lesson4Practise: View {
     var body: some View{
         VStack{
             Spacer()
-        Image("logo")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
             Spacer()
             HStack{
-               Spacer()
+                Spacer()
                 Text("Hello")
                 Spacer()
                 Text("World")
                 Spacer()
             }
             Spacer()
+        }
     }
-}
 }
 
 // Lesson 4 Challenge

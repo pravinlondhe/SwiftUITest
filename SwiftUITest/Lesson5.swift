@@ -18,32 +18,36 @@ struct Lesson5Practise:View {
         ZStack{
             Image("background")
                 .ignoresSafeArea()
-        VStack{
-            Spacer()
-          Image("logo-1")
-            Spacer()
-            HStack{
+            VStack{
                 Spacer()
-                Image("card2")
+                Image("logo-1")
                 Spacer()
-                Image("card3")
+                HStack{
+                    Spacer()
+                    Image("card2")
+                    Spacer()
+                    Image("card3")
+                    Spacer()
+                }
+                Spacer()
+                Button(action: {
+                    print("Deal done!!")
+                }, label: {
+                    Image("dealbutton").padding()
+                })
+                Spacer()
+                
+                HStack{
+                    Spacer()
+                    ScoreCard("Player","0")
+                    Spacer()
+                    ScoreCard("CPU", "0")
+                    Spacer()
+                }
                 Spacer()
             }
-            Spacer()
-            Image("dealbutton").padding()
-            Spacer()
-            
-            HStack{
-                Spacer()
-                ScoreCard("Player","0")
-                Spacer()
-                ScoreCard("CPU", "0")
-                Spacer()
-            }
-            Spacer()
         }
     }
-}
 }
 
 struct ScoreCard:View{
