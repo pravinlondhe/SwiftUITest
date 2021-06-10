@@ -18,6 +18,8 @@
 		FCFF02212670DB52001B5E65 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02202670DB52001B5E65 /* Lesson11.swift */; };
 		FCFF02232670DE90001B5E65 /* Lesson11Challeng.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */; };
 		FCFF02252670FFF9001B5E65 /* Lesson12.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF02242670FFF9001B5E65 /* Lesson12.swift */; };
+		FCFF02292671120A001B5E65 /* lesson13.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFF02282671120A001B5E65 /* lesson13.xcassets */; };
+		FCFF022B2671122E001B5E65 /* Lesson13.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF022A2671122E001B5E65 /* Lesson13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		FCFF02202670DB52001B5E65 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11Challeng.swift; sourceTree = "<group>"; };
 		FCFF02242670FFF9001B5E65 /* Lesson12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12.swift; sourceTree = "<group>"; };
+		FCFF02282671120A001B5E65 /* lesson13.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = lesson13.xcassets; sourceTree = "<group>"; };
+		FCFF022A2671122E001B5E65 /* Lesson13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			children = (
 				FCFF0209266DAC17001B5E65 /* SwiftUITestApp.swift */,
 				FCFF020B266DAC17001B5E65 /* ContentView.swift */,
+				FCFF02282671120A001B5E65 /* lesson13.xcassets */,
 				FCFF020D266DAC17001B5E65 /* Assets.xcassets */,
 				FCFF0212266DAC17001B5E65 /* Info.plist */,
 				FCFF020F266DAC17001B5E65 /* Preview Content */,
@@ -78,6 +83,7 @@
 				FCFF02202670DB52001B5E65 /* Lesson11.swift */,
 				FCFF02222670DE90001B5E65 /* Lesson11Challeng.swift */,
 				FCFF02242670FFF9001B5E65 /* Lesson12.swift */,
+				FCFF022A2671122E001B5E65 /* Lesson13.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFF0211266DAC17001B5E65 /* Preview Assets.xcassets in Resources */,
+				FCFF02292671120A001B5E65 /* lesson13.xcassets in Resources */,
 				FCFF020E266DAC17001B5E65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +173,7 @@
 				FCFF0219266F2813001B5E65 /* Lesson3.swift in Sources */,
 				FCFF020C266DAC17001B5E65 /* ContentView.swift in Sources */,
 				FCFF02232670DE90001B5E65 /* Lesson11Challeng.swift in Sources */,
+				FCFF022B2671122E001B5E65 /* Lesson13.swift in Sources */,
 				FCFF02212670DB52001B5E65 /* Lesson11.swift in Sources */,
 				FCFF020A266DAC17001B5E65 /* SwiftUITestApp.swift in Sources */,
 			);
